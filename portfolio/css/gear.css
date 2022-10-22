@@ -1,0 +1,58 @@
+main{
+    margin: 10px;
+}
+h1{
+    width: 100%;
+}
+.mygears{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gears{
+    width: 95%;
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.heading{
+    text-align: center;
+    margin-top: 3rem;
+}
+.heading h1{
+    color: #7e22ce;
+}
+.cards{
+    width: 400px;
+    border-radius: 2px 1rem;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin: 5px 2px 2rem;
+    box-shadow: 0 2px 5px #7e22ce4f;
+}
+.cards h1{
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.cards p{
+    margin: 0;
+    padding: 0;
+}
+.cards img{
+    width: 100%;
+}
+.cards .content{
+    margin: 5px 2rem;
+}
+.cards a{
+    background-color: #7e22ce;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 2px 1rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2rem;
+}

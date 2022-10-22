@@ -1,0 +1,47 @@
+.con h1{
+    text-align: center;width:100%;margin: 2rem 0;color: #7e22ce;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.con .cards{
+    width: 400px;
+    border-radius: 2px 2.6rem;
+    overflow: hidden;
+    box-shadow: 0 2px 5px #7e22ce5e;
+    margin-bottom: 2rem;
+}
+.cards p{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+.cards h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.cards img{
+    width: 100%;
+}
+.cards .btn{
+    margin: 3rem 0 1rem;
+}
+.btn a{
+    background-color: #7e22ce;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.1s ease-in;
+}
+.btn a:hover{
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-size: 1.2rem;
+}
+.content{
+    padding: 1rem 2rem;
+}

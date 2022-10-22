@@ -1,0 +1,143 @@
+body{
+    color: #3e3e3e;
+}
+main{
+    margin: 1px 4px;
+}
+.firstcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.first1{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innerfirst{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.innerfirst p{
+    padding: 0;
+    text-align: justify;
+    word-spacing: 0;
+}
+.innerfirst h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.innerfirst h1 span{
+    color: #7e22ce;
+    font-size: 2.1rem;
+}
+.first2{
+    height: 25rem;
+    width: 50%;
+    clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.firstbtns{
+    margin-top: 2rem;
+}
+.firstbtns a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+.firstbtns .blog{
+    background-color: #7e22ce;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+.firstbtns .course{
+    background-color: #313131;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+.secondcontainer,.thirdcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    flex-direction: column;
+}
+.secondcontainer .recomended h1{
+    color: #7e22ce;
+    font-weight: 500;
+}
+.courses_cards,.massage{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cards{
+    width: 25rem;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 5px #7e22ce4c;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.cards .start{
+    margin: 0px 10px;
+    padding: 2px;
+}
+.start h2{
+    margin: 2px 1px;
+}
+.cards p{
+    padding: 0;
+    margin: 0;
+}
+.cardbtn{
+    margin: 35px 0 0 5px;
+}
+.cardbtn a{
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #7e22ce;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.1s ease-in;
+}
+.cardbtn a:hover{
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-size: 1.2rem;
+}
+.image img{
+    width: 100%;
+}
+.thirdcontainer svg{
+    width: 20px;
+}
+.test{
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+    box-shadow: 0 2px 5px #7e22ce41;
+}
+.ref{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.test h3,p{
+    margin: 0;
+}

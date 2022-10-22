@@ -1,0 +1,27 @@
+
+svg{
+    width: 3rem;
+}
+main{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con{
+    width: 70%;
+    height: 30rem;
+    box-shadow: 0 2px 5px #7e22ce41;
+    border-radius: 2px 8rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con div{
+    margin: 2rem 0;
+}
+.con a{
+    text-decoration: none;
+    margin-right: 2rem;
+}

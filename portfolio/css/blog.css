@@ -1,0 +1,32 @@
+
+main{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.con{
+    width: 90%;
+}
+.mainheading{
+    color: #7e22ce;
+    margin: 2rem 1rem;
+    width: 88%;
+}
+.posts{
+    padding: 1rem 0 1rem 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    width: 60%;
+    box-shadow: 0 2px 5px #7e22ce41;
+    border-radius: 2px 2rem;
+}
+.posts p,h1{
+    margin: 1rem 0px;
+    padding: 0;
+}
+.posts h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+}

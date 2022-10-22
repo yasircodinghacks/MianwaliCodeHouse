@@ -1,0 +1,73 @@
+
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 2rem;
+}
+main .message{
+    margin: 1px 10% 1px 3%;
+}
+.message h1{
+    font-weight: 600;
+}
+.message p{
+    padding: 0;
+    margin-top: 10px;
+}
+main .form{
+    width: 50%;
+    margin-right: 10%;
+    border-radius: 2px 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: 0 2px 5px #7e22ce41;
+}
+.form p{
+    padding: 0;
+}
+.form .this{
+    width: 100%;
+    font-size: 1.2rem;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+#submit{
+    margin-top: 3rem;
+    display: block;
+    width: 100px;
+    background-color: #7e22ce;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+.form label{
+    font-size: 1rem;
+}
+.form p{
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+.form span{
+    font-size: 0.8rem;
+    color: gray;
+}
+.ss{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.s{
+    margin-bottom: 5px;
+}

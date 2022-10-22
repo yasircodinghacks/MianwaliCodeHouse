@@ -1,0 +1,113 @@
+
+html{
+    font-size: 85%;
+}
+@media(max-width:900px){
+    html{
+        font-size: 75%;
+    }
+
+}
+@media(max-width:600px){
+    html{
+        font-size: 65%;
+    }
+
+}
+body{
+    font-family: System-ui;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100vw;
+    max-width: 2100px;
+}
+.header .nav1{
+    border-bottom: 1px solid #7e22ce4a;
+}
+.header .nav2{
+    box-shadow: 0px 5px 5px #7e22ce42;
+}
+.header .nav1,.nav2{
+    display: flex;
+    padding: 1.5rem 3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .nav1 .nav1_two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav1 a{
+    text-decoration: none;
+    margin-right: 1rem;
+    color: rgb(28, 28, 28);
+}
+.nav1 .nav1_one{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #7e22ce;
+}
+.nav1 span{
+    margin-right: 1rem;
+    color: #7e22ce;
+}
+.nav1 .nav1_two .btn{
+    background-color: #7e22ce;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    transition: all 0.2s ease-in;
+}
+.nav2 .nav2_one,.nav2_three{
+    color: #7e22ce;
+    width: 1.7rem;
+    cursor: pointer;
+}
+.nav2 a{
+    text-decoration: none;
+    margin-right: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: #7e22ce;
+}
+.header a:hover{
+    border-bottom: 1px solid #7e22ce;
+}
+.header .btn:hover{
+    border: none;
+    background-color: #6108af;
+}
+footer{
+    padding: 1.5rem 2rem;
+    
+}
+footer,.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer2 h2,p{
+    padding: 1rem;
+}
+.footer2 h2{
+    font-weight: 550;
+    color: #7e22ce;
+}
+.footer2 p{
+    border-left: 1px solid rgba(66, 66, 66, 0.524);
+    font-size: 1.2rem;
+}
+footer img{
+    width: 7rem;
+}
+footer .footer3 a svg{
+    width: 2rem;
+}
+footer .footer3 a{
+    text-decoration: none;
+    margin-right: 1rem;
+}

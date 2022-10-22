@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+}
+.con{
+    width: 60%;
+    word-wrap: break-word;
+    margin: 2rem 0;
+    box-shadow: 0 2px 5px #7e22ce41;
+    padding: 2rem;
+    border-radius: 4px 4rem;
+}
+.con img{
+    max-height: 300px;
+    max-width: 90%;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con .content{
+    margin-bottom: 2rem;
+}
